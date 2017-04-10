@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="#3DB8A9"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgViewSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="climbing detect"
+        android:id="@+id/switchDect"
+        android:textOn="ON"
+        android:textOff="OFF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1D9889"
+        android:shadowDx="10"
+        android:text="紀錄"
+        android:id="@+id/btnRecord"
+        android:layout_below="@+id/imgViewSleep"/>
+
+</LinearLayout><!-- From: file:/C:/Users/proscend/AndroidStudioProjects/goodoBaby/app/src/main/res/layout/activity_main.xml -->

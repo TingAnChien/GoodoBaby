@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="111dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="96dp">
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Notification"
+                android:id="@+id/switchDect"
+                android:layout_weight="0.07" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My IP"
+        android:id="@+id/ip_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="server IP"
+        android:id="@+id/serverip_text"
+        android:layout_weight="0.14" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change server IP"
+            android:id="@+id/ip_btn" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ip_message" />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/proscend/AndroidStudioProjects/goodoBaby/app/src/main/res/layout/activity_setting.xml -->
