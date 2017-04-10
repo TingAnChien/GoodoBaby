@@ -7,6 +7,4 @@ If the user choose one of the device, it would transfer to the second page and t
 
 If user want to see how baby sleep well or not, click the WAKEUP event and it would show the information during this sleep.
 
-![](/images/app.gif)
-
-![](/images/system.jpg)
+![](/images/app.gif)     ![](/images/system.jpg)
